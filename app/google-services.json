@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "606960380887",
+    "project_id": "smart-storage-app-2089e",
+    "storage_bucket": "smart-storage-app-2089e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606960380887:android:1443c1a788139eec83f992",
+        "android_client_info": {
+          "package_name": "com.example.smart_storage_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5BMVFmNtt9W7S1sX4dx5LsUR80nu9Qjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
