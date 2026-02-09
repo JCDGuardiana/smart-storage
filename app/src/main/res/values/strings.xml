@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Smart Lock App</string>
     <string name="brand_tag">Secure by Design\nSmart by Choice.</string>
+
+    <string name="continue_btn"><![CDATA[Get Started > > >]]></string>
 </resources>

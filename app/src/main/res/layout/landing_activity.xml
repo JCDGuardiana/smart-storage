@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:background="#E8E7E8"
     android:backgroundTint="#FDFDFD">
@@ -10,10 +10,12 @@
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="wrap_content"
-        android:layout_height="600dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="463dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@drawable/logo_img" />
 
     <TextView
@@ -21,15 +23,17 @@
         android:layout_width="300dp"
         android:layout_height="70dp"
         android:layout_marginStart="176dp"
-        android:layout_marginTop="204dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="177dp"
-        android:letterSpacing=".0600"
+        android:layout_marginBottom="33dp"
         android:fontFamily="@font/tiltneon_regular"
+        android:letterSpacing=".0600"
         android:text="@string/brand_tag"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textFontWeight="200"
         android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -39,13 +43,13 @@
         android:layout_width="300dp"
         android:layout_height="80dp"
         android:layout_marginStart="177dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="176dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="30dp"
         android:fontFamily="@font/tiltneon_regular"
+        android:letterSpacing=".5"
         android:text="@string/app_name"
         android:textAlignment="center"
-        android:letterSpacing=".5"
         android:textColor="@color/black"
         android:textFontWeight="900"
         android:textSize="30dp"
@@ -55,7 +59,27 @@
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.545" />
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="287dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/corner_radius"
+        android:fontFamily="@font/tiltwarp_regular"
+        android:text="@string/continue_btn"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
