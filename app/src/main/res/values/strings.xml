@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Smart Lock App</string>
-    <string name="brand_tag">Secure by Design\nSmart by Choice.</string>
-
+    <string name="brand_tag"> Secure by Design \nSmart by Choice.</string>
     <string name="continue_btn"><![CDATA[Get Started > > >]]></string>
+    <string name="email_field">Email</string>
+    <string name="password_field">Password</string>
+    <string name="login_btn">Login</string>
+    <string name="login_header">LOGIN</string>
 </resources>
