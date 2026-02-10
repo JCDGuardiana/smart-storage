@@ -23,6 +23,7 @@
         android:layout_height="35dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="40dp"
+
         android:background="@drawable/field_drawable"
         android:fontFamily="@font/tiltneon_regular"
         android:gravity="start|center_vertical"
@@ -87,5 +88,34 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/tiltneon_regular"
+        android:text="@string/or"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/googlebtn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/corner_radius"
+        android:drawableStart="@drawable/google_icon"
+        android:fontFamily="@font/tiltwarp_regular"
+        android:letterSpacing=".3"
+        android:text="@string/google"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -62,7 +62,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button"
+        android:id="@+id/getstartedbtn"
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_marginStart="287dp"

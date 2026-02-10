@@ -6,4 +6,6 @@
     <string name="password_field">Password</string>
     <string name="login_btn">Login</string>
     <string name="login_header">LOGIN</string>
+    <string name="or">OR</string>
+    <string name="google">GOOGLE</string>
 </resources>
