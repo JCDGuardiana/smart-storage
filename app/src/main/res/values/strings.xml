@@ -8,4 +8,5 @@
     <string name="login_header">LOGIN</string>
     <string name="or">OR</string>
     <string name="google">GOOGLE</string>
+    <string name="hyperlink_1">Didnt have an account? <u>Sign up</u></string>
 </resources>
